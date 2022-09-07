@@ -1,48 +1,43 @@
-# parcel-project-template
+# Ice Cream 
 
-## Zalezności
+This is my team made project of event website. Written by using javascript, html, scss
 
-Na komputerze musi być zainstalowana LTS-wersja [Node.js](https://nodejs.org/en/).
 
-## Przed rozpoczęciem pracy
+# Javascript course
 
-Jeden raz na projekt zainstalować wszystkie zalezności.
+**Welcome to my github page Javascript course.** **Probably you are the HR worker, so here you can
+see all my way of studying Javascript, but if you are anyone else, you are also welcome to contact with me by email: zhyryk1997@gmail.com.** 
+**You can find the whole notes, which I made during the course - enjoy.**
 
-```shell
-npm ci
-```
+## Agenda
 
-### Praca
+1. [Module 1 - Meeting with JS Syntax and data types](https://github.com/WindyBoss/js-lessons/tree/Module-1-Meeting-with-JS-Syntax-and-data-types)
+2. [Module 2 - Array & Function](https://github.com/WindyBoss/js-lessons/tree/Module-2-Array-&-Function)
+3. [Module 3 - Objects](https://github.com/WindyBoss/js-lessons/tree/Module-3-Objects)
+4. [Module 4 - Functions & Callbacks](https://github.com/WindyBoss/js-lessons/tree/Module-4-Functions-&-Callbacks)
+5. [Module 5 - Prototype & Class](https://github.com/WindyBoss/js-lessons/tree/Module-5-Prototype-&-Class)
+6. [Module 6 - Array Methods](https://github.com/WindyBoss/js-lessons/tree/Module-6-Array-Methods)
+7. [Module 7 - DOM & Events](https://github.com/WindyBoss/js-lessons/tree/Module-7-DOM-&-Events)
+8. [Module 8 - Event Delegation](https://github.com/WindyBoss/js-lessons/tree/Module-8-Event-Delegation)
+9. [Module 9 - Ecmascript](https://github.com/WindyBoss/js-lessons/tree/Module-9-Ecmascript)
+10. [Module 10 - NPM](https://github.com/WindyBoss/js-lessons/tree/Module-10-NPM)
+11. [Module 11 - Webpack](https://github.com/WindyBoss/js-lessons/tree/Module-11-Webpack)
+12. [Module 12 - LocalStorage](https://github.com/WindyBoss/js-lessons/tree/Module-12-LocalStorage)
+13. [Module 13 - Web Application](https://github.com/WindyBoss/js-lessons/tree/Module-13-Web-Application)
+14. [Module 14 - Asynchrone Code](https://github.com/WindyBoss/js-lessons/tree/Module-14-Asynchrone-Code)
+15. [Module 15 - Promise](https://github.com/WindyBoss/js-lessons/tree/Module-15-Promise)
+16. [Module 16 - AJAX](https://github.com/WindyBoss/js-lessons/tree/Module-16-AJAX)
+17. [Module 17 - Pagination](https://github.com/WindyBoss/js-lessons/tree/Module-17-Pagination)
+18. [Module 18 - Async-Await](https://github.com/WindyBoss/js-lessons/tree/Module-18-Async-Await)
+19. [Module 19 - CRUD](https://github.com/WindyBoss/js-lessons/tree/Module-19-CRUD)
+20. [Module 20 - Infinite Scroll](https://github.com/WindyBoss/js-lessons/tree/Module-20-Infinite-Scroll)
 
-Włączyć tryp pracy.
+More deep infomation you can find inside each of higher mentioned branches.
 
-```shell
-npm run dev
-```
-
-W przeglądarce przejść na [http://localhost:1234](http://localhost:1234).
-
-### Deploy
-
-Kod będzie automatycznie się zbierać i robić deploy aktualnej wersji projektu 
-na GitHub Pages, w gałąź `gh-pages`, za kazdym razem jeśli zostaną wprowadzone zmiany w `main`. Na przykład, po bezpośrenim push lub po przyjęciu pull-request. Aby to działało musimy w pliku `package.json` zmienić pole `homepage` i skrypt
-`build`, zmieniając `nazwe_uzytkownika` i `nazwe_repozytorium` na swoje.
-
-```json
-"homepage": "https://nazwa_uzytkownika.github.io/nazwa_repozytorium",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /nazwa_repozytorium/"
-},
-```
-
-Po jakimś czasie stronę mozna będzie zobaczyć na zywo pod adresem który 
-jest wpisany w poprawione właściwości `homepage`, na przykład
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Pliki i folderzy
-
-- Wszystkie partials plików styłów powinny być w folderze `src/sass` i importować się w
-  `src/sass/main.scss`
-- Zdjęcia dodawajcie w folder `src/images`, przed tym zoptymizujcie te zdjęcia które dodajecie. Program po prostu 
-  kopiuje wykorzystane zdjęcia aby system nie musiał optymizować je, bo na słabych komputerach 
-  to moze zająć duzo czasu.
+## Additional Homeworks: 
+1. [Page](https://windyboss.github.io/goit-js-hw-06/) | [Code](https://github.com/WindyBoss/goit-js-hw-06) - First work with DOM 
+2. [Page](https://windyboss.github.io/goit-js-hw-07/) | [Code](https://github.com/WindyBoss/goit-js-hw-07) - Image Gallery by using SimpleLightbox library
+3. [Page](https://windyboss.github.io/goit-js-hw-08/) | [Code](https://github.com/WindyBoss/goit-js-hw-08) - First use of templates "Handlebars"
+4. [Page](https://windyboss.github.io/goit-js-hw-09/) | [Code](https://github.com/WindyBoss/goit-js-hw-09) - First work with asynchronous Code
+5. [Page](https://windyboss.github.io/goit-js-hw-10/) | [Code](https://github.com/WindyBoss/goit-js-hw-10) - First Fetch API use
+6. [Page](https://windyboss.github.io/goit-js-hw-11/) | [Code](https://github.com/WindyBoss/goit-js-hw-11) - Image Gallery creating by Fetch API (Load More Button & Infinite Scroll)
